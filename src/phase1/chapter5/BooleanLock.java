@@ -3,6 +3,7 @@ package phase1.chapter5;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.TimeoutException;
 
 import static java.lang.System.currentTimeMillis;
@@ -28,7 +29,6 @@ public class BooleanLock implements Lock {
 
         synchronized (this) {
             while (locked) {
-                //此处与原书有歧义，原书无法通过编译 currentThread()
                 blockedList.add(currentThread());
                 this.wait();
             }
@@ -47,7 +47,6 @@ public class BooleanLock implements Lock {
                 this.lock();
             } else {
                 long remainingMills = mills;
-                //此处与原书不符
                 long endMills = currentTimeMillis() + remainingMills;
                 while (locked) {
                     if (remainingMills <= 0) {
@@ -69,6 +68,7 @@ public class BooleanLock implements Lock {
         synchronized (this) {
             if (currentThread == currentThread()) {
                 this.locked = false;
+                Optional.of(currentThread().getName() + "release the lock.").ifPresent(System.out::println);
                 this.notifyAll();
             }
         }
