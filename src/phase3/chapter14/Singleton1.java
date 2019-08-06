@@ -6,7 +6,7 @@ package phase3.chapter14;
  * @author: Desire
  * @date: 2019-06-21 14:21
  */
-public class Singleton1 {
+public final class  Singleton1 {
 
     //私有化构造函数，不允许外部new
     private Singleton1() {
