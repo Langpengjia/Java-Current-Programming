@@ -90,6 +90,7 @@ public class ObservableThread<T> extends Thread implements Observable {
 
         Observable observable = new ObservableThread<>(lifecycle,() -> {
             try {
+                System.out.println("I am Observing !");
                 TimeUnit.SECONDS.sleep(10);
             } catch (Exception e) {
                 e.printStackTrace();
