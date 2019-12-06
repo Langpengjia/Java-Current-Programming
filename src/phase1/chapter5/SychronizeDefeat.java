@@ -2,12 +2,6 @@ package phase1.chapter5;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: SychronizeDefeat
- * @description:
- * @author: Desire
- * @date: 2019-07-02 10:30
- */
 public class SychronizeDefeat {
 
     public synchronized void syncMethod() {

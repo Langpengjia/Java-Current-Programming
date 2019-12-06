@@ -4,12 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: BasicThreadPool
- * @description:
- * @author: Desire
- * @date: 2019-07-05 11:41
- */
 public class BasicThreadPool extends Thread implements  ThreadPool {
 
     //初始化线程池大小
@@ -43,7 +37,6 @@ public class BasicThreadPool extends Thread implements  ThreadPool {
         this(initSize,maxSize,coreSize,DEFAULT_THREAD_FACROTY,queueSize,
                 DEFAULT_DENY_POLICY,10,TimeUnit.SECONDS);
     }
-
 
 
     public BasicThreadPool(int initSize,int maxSize,int coreSize,ThreadFactory threadFactory,

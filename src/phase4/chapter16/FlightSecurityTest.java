@@ -1,11 +1,5 @@
 package phase4.chapter16;
 
-/**
- * @classname: FlightSecurityTest
- * @description:
- * @author: Desire
- * @date: 2019-08-08 9:52
- */
 public class FlightSecurityTest {
 
     static class Passengers extends Thread {
@@ -33,10 +27,6 @@ public class FlightSecurityTest {
         }
 
 
-        /**
-         * 死循环，不要执行，堆溢出
-         * @param args
-         */
         public static void main(String[] args) {
 
             final FlightSecurity flightSecurity = new FlightSecurity();

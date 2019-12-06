@@ -1,11 +1,5 @@
 package phase1.chapter6;
 
-/**
- * @classname: ThreadGroupCreator
- * @description:
- * @author: Desire
- * @date: 2019-07-03 9:45
- */
 public class ThreadGroupCreator {
 
     public static void main(String [] args){

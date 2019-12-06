@@ -1,11 +1,5 @@
 package phase3.chapter14;
 
-/**
- * @classname: Singleton3
- * @description: 懒汉+同步方法
- * @author: Desire
- * @date: 2019-06-21 14:52
- */
 public class Singleton3 {
 
     private Singleton3() {

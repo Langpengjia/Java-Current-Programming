@@ -3,12 +3,6 @@ package phase4.chapter18;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
-/**
- * @classname: IntegerAccumulator
- * @description:
- * @author: Desire
- * @date: 2019-08-08 13:42
- */
 public class IntegerAccumulator {
 
     private int init;

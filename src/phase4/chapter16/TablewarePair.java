@@ -1,11 +1,5 @@
 package phase4.chapter16;
 
-/**
- * @classname: TablewarePair
- * @description:
- * @author: Desire
- * @date: 2019-08-08 10:53
- */
 public class TablewarePair {
 
     private final Tableware leftTool;

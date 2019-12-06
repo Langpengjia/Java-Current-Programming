@@ -3,12 +3,6 @@ package phase3.chapter14;
 import java.net.Socket;
 import java.sql.Connection;
 
-/**
- * @classname: Singleton4
- * @description:
- * @author: Desire
- * @date: 2019-06-21 15:24
- */
 public class Singleton4 {
     private byte[] data = new byte[1024];
 

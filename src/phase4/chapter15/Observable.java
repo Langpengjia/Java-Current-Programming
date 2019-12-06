@@ -4,7 +4,10 @@ public interface Observable {
 
     //任务周期的枚举类型
     enum Cycle{
-        STARTED,RUNNING,DONE,ERROR
+        STARTED,
+        RUNNING,
+        DONE,
+        ERROR
     }
 
     //获取当前任务的生命周期状态

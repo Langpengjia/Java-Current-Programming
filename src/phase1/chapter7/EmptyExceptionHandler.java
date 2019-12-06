@@ -2,12 +2,6 @@ package phase1.chapter7;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: EmptyExceptionHandler
- * @description:
- * @author: Desire
- * @date: 2019-07-04 16:31
- */
 public class EmptyExceptionHandler {
     public static void main(String [] args){
         ThreadGroup mainGroup = Thread.currentThread().getThreadGroup();

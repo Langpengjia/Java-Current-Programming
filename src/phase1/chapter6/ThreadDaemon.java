@@ -2,12 +2,6 @@ package phase1.chapter6;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: ThreadDaemon
- * @description: 守护进程
- * @author: Desire
- * @date: 2019-07-03 15:05
- */
 public class ThreadDaemon {
 
     public static void main(String [] args) throws InterruptedException {

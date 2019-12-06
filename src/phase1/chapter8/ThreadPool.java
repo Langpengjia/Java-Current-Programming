@@ -1,11 +1,5 @@
 package phase1.chapter8;
 
-/**
- * @classname: ThreadPool
- * @description: 一个简单的threadPool
- * @author: Desire
- * @date: 2019-07-04 18:13
- */
 public interface ThreadPool {
 
     //提交任务到线程池

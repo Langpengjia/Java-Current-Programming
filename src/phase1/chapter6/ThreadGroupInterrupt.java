@@ -2,12 +2,6 @@ package phase1.chapter6;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: ThreadGroupInterrupt
- * @description:
- * @author: Desire
- * @date: 2019-07-03 13:17
- */
 public class ThreadGroupInterrupt {
 
     public static void main(String [] args) throws InterruptedException {

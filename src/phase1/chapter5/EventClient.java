@@ -2,12 +2,6 @@ package phase1.chapter5;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: EventClient
- * @description: 操作一个自定义队列
- * @author: Desire
- * @date: 2019-07-01 18:20
- */
 public class EventClient {
 
 

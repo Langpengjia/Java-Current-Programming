@@ -5,12 +5,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- * @classname: MyClassLoader
- * @description:   custom Classloader
- * @author: Desire
- * @date: 2019-08-06 15:01
- */
 public class MyClassLoader extends ClassLoader {
 
     private final static Path DEFAULT_CLASS_DIR = Paths.get("F:", "classloader");

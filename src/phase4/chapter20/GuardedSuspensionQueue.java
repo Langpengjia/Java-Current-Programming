@@ -2,12 +2,6 @@ package phase4.chapter20;
 
 import java.util.LinkedList;
 
-/**
- * @classname: GuardedSuspensionQueue
- * @description: 生产者消费者模式
- * @author: Desire
- * @date: 2019-10-16 16:10
- */
 public class GuardedSuspensionQueue {
 
     public GuardedSuspensionQueue() {

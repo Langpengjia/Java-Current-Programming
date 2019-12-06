@@ -1,11 +1,5 @@
 package phase2.chapter9;
 
-/**
- * @classname: Singleton
- * @description:
- * @author: Desire
- * @date: 2019-07-31 13:20
- */
 public class Singleton {
 
     //太经典了，重点------------------

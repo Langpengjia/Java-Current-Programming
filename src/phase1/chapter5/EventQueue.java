@@ -2,12 +2,6 @@ package phase1.chapter5;
 
 import java.util.LinkedList;
 
-/**
- * @classname: EventQueue
- * @description: 一个简易的队列
- * @author: Desire
- * @date: 2019-07-01 18:00
- */
 public class EventQueue {
 
     private final int max;

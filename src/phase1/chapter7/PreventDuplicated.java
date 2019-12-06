@@ -9,12 +9,6 @@ import java.nio.file.attribute.PosixFilePermissions;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: PreventDuplicated
- * @description: 本例和源码有所不同，因为环境为Windows环境，所以略加改动
- * @author: Desire
- * @date: 2019-07-04 17:19
- */
 public class PreventDuplicated {
 
     private final static String LOCK_PATH = "D:/";

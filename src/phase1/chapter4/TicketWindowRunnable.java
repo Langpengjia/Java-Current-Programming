@@ -1,11 +1,5 @@
 package phase1.chapter4;
 
-/**
- * @classname: TicketWindowRunnable
- * @description: 第一章银行领号的线程安全实现
- * @author: Desire
- * @date: 2019-07-01 15:56
- */
 public class TicketWindowRunnable implements Runnable{
 
     private int index = 1;

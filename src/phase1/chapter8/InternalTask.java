@@ -1,11 +1,5 @@
 package phase1.chapter8;
 
-/**
- * @classname: InternalTask
- * @description:
- * @author: Desire
- * @date: 2019-07-05 11:05
- */
 public class InternalTask implements Runnable {
 
     private final RunnableQueue runnableQueue;

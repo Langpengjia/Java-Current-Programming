@@ -2,12 +2,6 @@ package phase1.chapter7;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: CaptureThreadException
- * @description:
- * @author: Desire
- * @date: 2019-07-04 16:21
- */
 public class CaptureThreadException {
 
     public static void main(String[] args) {

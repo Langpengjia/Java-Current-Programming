@@ -1,11 +1,5 @@
 package phase2.chapter9;
 
-/**
- * @classname: Simple
- * @description:
- * @author: Desire
- * @date: 2019-07-30 9:47
- */
 public class Simple {
 
     static {
@@ -13,11 +7,11 @@ public class Simple {
     }
 
     private static final int x = 10;
+
     public static void test(){
 
 
     }
-
 
 
     public static void main(String [] args) throws ClassNotFoundException {

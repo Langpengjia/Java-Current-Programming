@@ -1,11 +1,5 @@
 package phase3.chapter14;
 
-/**
- * @classname: Singleton7
- * @description:   枚举
- * @author: Desire
- * @date: 2019-08-07 14:39
- */
 public enum Singleton7 {
 
     INSTANCE;

@@ -2,12 +2,6 @@ package phase1.chapter7;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: ThreadHook
- * @description: hook线程
- * @author: Desire
- * @date: 2019-07-04 16:47
- */
 public class ThreadHook {
     public static void main(String [] args){
 

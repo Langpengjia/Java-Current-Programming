@@ -2,12 +2,6 @@ package phase4.chapter19;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @classname: FutureTask
- * @description:
- * @author: Desire
- * @date: 2019-08-09 10:14
- */
 public class FutureTask<T> implements Future<T> {
 
     private T result;

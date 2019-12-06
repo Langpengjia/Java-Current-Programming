@@ -1,11 +1,5 @@
 package phase2.chapter10;
 
-/**
- * @classname: ApplicationClassLoader
- * @description:
- * @author: Desire
- * @date: 2019-08-06 14:56
- */
 public class ApplicationClassLoader {
 
     public static void main(String [] args){

@@ -1,11 +1,5 @@
 package phase4.chapter17;
 
-/**
- * @classname: ReadWriteLock
- * @description:
- * @author: Desire
- * @date: 2019-08-08 11:23
- */
 public interface ReadWriteLock {
 
     //创建 reader 锁

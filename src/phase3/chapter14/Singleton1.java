@@ -1,11 +1,5 @@
 package phase3.chapter14;
 
-/**
- * @classname: Singleton1
- * @description: 饿汉式
- * @author: Desire
- * @date: 2019-06-21 14:21
- */
 public final class  Singleton1 {
 
     //私有化构造函数，不允许外部new

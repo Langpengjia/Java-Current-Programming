@@ -2,12 +2,6 @@ package phase3.chapter12;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: VolatileFoo
- * @description:
- * @author: Desire
- * @date: 2019-08-07 10:54
- */
 public class VolatileFoo {
 
     final static int MAX = 5;

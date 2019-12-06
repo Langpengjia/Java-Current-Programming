@@ -2,12 +2,6 @@ package phase1.chapter6;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: ThreadGroupEnumerateTreads
- * @description:    此方法与文中表述不符
- * @author: Desire
- * @date: 2019-07-03 10:17
- */
 public class ThreadGroupEnumerateTreads {
 
     public static void main(String [] args) throws InterruptedException {

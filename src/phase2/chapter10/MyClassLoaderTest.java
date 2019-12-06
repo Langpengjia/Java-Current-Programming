@@ -2,12 +2,6 @@ package phase2.chapter10;
 
 import java.lang.reflect.Method;
 
-/**
- * @classname: MyClassLoaderTest
- * @description:
- * @author: Desire
- * @date: 2019-08-06 16:44
- */
 public class MyClassLoaderTest {
 
     public static void main(String [] args) throws Exception {

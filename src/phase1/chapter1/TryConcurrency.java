@@ -3,12 +3,6 @@ package phase1.chapter1;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: TryConcurrency
- * @description:
- * @author: Desire
- * @date: 2019-06-21 14:04
- */
 public class TryConcurrency {
 
     public static void main(String[] args) {
@@ -26,9 +20,6 @@ public class TryConcurrency {
     }
 
 
-    /**
-     * Browse the lastest news
-     */
     private static void browseNews() {
         for (; ; ) {
             System.out.println("Uh-huh，the good news.");
@@ -36,9 +27,6 @@ public class TryConcurrency {
         }
     }
 
-    /**
-     * Listening and enjoy the music
-     */
     private static void enjoyMusic() {
 
         for (; ; ) {
@@ -48,11 +36,6 @@ public class TryConcurrency {
     }
 
 
-    /**
-     * Simulate the wait and ignore exception
-     *
-     * @param seconds
-     */
     private static void sleep(int seconds) {
         try {
             TimeUnit.SECONDS.sleep(seconds);

@@ -12,7 +12,6 @@ public interface TaskLifecycle<T> {
     void onError(Thread thread,Exception e);
 
 
-
     class EmptyLifecycle<T> implements TaskLifecycle<T>{
 
 

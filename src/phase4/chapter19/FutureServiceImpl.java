@@ -2,12 +2,6 @@ package phase4.chapter19;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @classname: FutureServiceImpl
- * @description:
- * @author: Desire
- * @date: 2019-08-09 13:45
- */
 public class FutureServiceImpl<IN, OUT> implements FutureService<IN, OUT> {
 
 

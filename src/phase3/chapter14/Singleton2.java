@@ -1,11 +1,5 @@
 package phase3.chapter14;
 
-/**
- * @classname: Singleton2
- * @description: 懒汉式
- * @author: Desire
- * @date: 2019-06-21 14:26
- */
 public class Singleton2 {
 
     private Singleton2() {

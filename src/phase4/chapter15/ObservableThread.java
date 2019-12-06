@@ -2,12 +2,6 @@ package phase4.chapter15;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: ObservableThread
- * @description:
- * @author: Desire
- * @date: 2019-08-07 15:48
- */
 public class ObservableThread<T> extends Thread implements Observable {
 
 

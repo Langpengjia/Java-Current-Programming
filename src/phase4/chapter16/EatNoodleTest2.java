@@ -1,11 +1,5 @@
 package phase4.chapter16;
 
-/**
- * @classname: EatNoodleTest2
- * @description: 避免死锁
- * @author: Desire
- * @date: 2019-08-08 10:55
- */
 public class EatNoodleTest2 extends Thread {
 
     private final String name;

@@ -2,9 +2,6 @@ package phase1.chapter8;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
-/**
- * 拒绝策略
- */
 @FunctionalInterface
 public interface DenyPolicy {
 
@@ -27,6 +24,7 @@ public interface DenyPolicy {
             throw new RunnableDenyException("The runnable "+ runnable +" will be abort.");
         }
     }
+
     //该拒绝策略会使任务在任务提交者所在的线程中执行任务
     class RunnableDenyPolicy implements DenyPolicy{
 

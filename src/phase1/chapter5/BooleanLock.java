@@ -9,12 +9,6 @@ import java.util.concurrent.TimeoutException;
 import static java.lang.System.currentTimeMillis;
 import static java.lang.Thread.currentThread;
 
-/**
- * @classname: BooleanLock
- * @description:
- * @author: Desire
- * @date: 2019-07-02 13:28
- */
 public class BooleanLock implements Lock {
 
     private Thread currentThread;

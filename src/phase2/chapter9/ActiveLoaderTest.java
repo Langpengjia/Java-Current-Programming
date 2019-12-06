@@ -1,11 +1,5 @@
 package phase2.chapter9;
 
-/**
- * @classname: ActiveLoaderTest
- * @description:
- * @author: Desire
- * @date: 2019-07-30 9:58
- */
 public class ActiveLoaderTest{
 
 

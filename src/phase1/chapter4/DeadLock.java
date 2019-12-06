@@ -1,11 +1,5 @@
 package phase1.chapter4;
 
-/**
- * @classname: DeadLock
- * @description: 一个死锁现象
- * @author: Desire
- * @date: 2019-07-01 16:59
- */
 public class DeadLock {
 
     private final Object read = new Object();

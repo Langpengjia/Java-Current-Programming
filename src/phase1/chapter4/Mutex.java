@@ -2,12 +2,6 @@ package phase1.chapter4;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @classname: Mutex
- * @description: synchronized 的 monitor锁
- * @author: Desire
- * @date: 2019-07-01 16:08
- */
 public class Mutex {
 
     private final static Object MUTEX = new Object();

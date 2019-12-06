@@ -1,11 +1,5 @@
 package phase4.chapter17;
 
-/**
- * @classname: ReadWriteLockImpl
- * @description: 自定义读写锁
- * @author: Desire
- * @date: 2019-08-08 11:35
- */
 public class ReadWriteLockImpl implements ReadWriteLock {
 
     //定义一个对象锁
@@ -22,6 +16,7 @@ public class ReadWriteLockImpl implements ReadWriteLock {
     public ReadWriteLockImpl(){
         this(true);
     }
+
     public ReadWriteLockImpl(boolean preferWriter){
         this.preferWriter = preferWriter;
     }

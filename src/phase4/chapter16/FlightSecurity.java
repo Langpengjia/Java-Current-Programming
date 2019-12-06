@@ -1,11 +1,5 @@
 package phase4.chapter16;
 
-/**
- * @classname: FlightSecurity
- * @description: 非线程安全
- * @author: Desire
- * @date: 2019-08-07 17:00
- */
 public class FlightSecurity {
 
     private int count = 0;

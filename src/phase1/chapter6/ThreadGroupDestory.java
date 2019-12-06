@@ -1,11 +1,5 @@
 package phase1.chapter6;
 
-/**
- * @classname: ThreadGroupDestory
- * @description: destory方法
- * @author: Desire
- * @date: 2019-07-03 13:28
- */
 public class ThreadGroupDestory {
 
     public static void main(String [] args){

@@ -4,12 +4,6 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
-/**
- * @classname: BooleanLockTest
- * @description:
- * @author: Desire
- * @date: 2019-07-02 15:33
- */
 public class BooleanLockTest {
 
     private final Lock lock = new BooleanLock();
@@ -26,6 +20,7 @@ public class BooleanLockTest {
             lock.unlock();
         }
     }
+
     public static void main(String [] args){
         BooleanLockTest blt = new BooleanLockTest();
         IntStream.range(0,10).mapToObj(i -> new Thread(blt::syncMethod))

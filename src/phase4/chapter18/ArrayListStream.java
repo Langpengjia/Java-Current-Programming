@@ -3,12 +3,6 @@ package phase4.chapter18;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @classname: ArrayListStream
- * @description:
- * @author: Desire
- * @date: 2019-08-08 13:31
- */
 public class ArrayListStream {
 
     public static void main(String [] args){

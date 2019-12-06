@@ -2,12 +2,6 @@ package phase1.chapter8;
 
 import java.util.LinkedList;
 
-/**
- * @classname: LinkedRunnableQueue
- * @description:
- * @author: Desire
- * @date: 2019-07-05 11:15
- */
 public class LinkedRunnableQueue implements RunnableQueue {
 
     //任务队列的最大容量，构造注入
